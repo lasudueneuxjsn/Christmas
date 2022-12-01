@@ -1,0 +1,106 @@
+-- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = 80 -- tempo overides the delay
+
+shared.scr = [[ [9y]-[ra]-[wp]-[ro]-
+[9y]wr----y y 
+[9y]-[ra]-[wp]-[ro]-
+[0u]wt----
+[0u]-[ts]-[wa]-[tp]-
+[9I]Qe----
+[9d]-[ed]-[Qs]-[ep]-
+[9a]wr----
+[9y]-[ra]-[wp]-[ro]-
+[9y]wr----y y 
+[9y]-[ra]-[wp]-[ro]-
+[0u]wt----
+[0u]-[ts]-[wa]-[tp]-
+[9d]Qe-d-d-d-
+[9f]-[ed]-[Qs]-[ep]-
+[9o]wr----
+[woa]-[yoa]-[roa]-y-
+[woa]-[yoa]-[roa]-y-
+[woa]-d-[ro]-y p 
+[woa]-y-r-y-
+[eps]-[yps]-[tps]-y [ps] 
+[wps]-[oa]-[oa]-[yoa] [oa] 
+[Teoa]-p-p-a-
+[Iyp]-t-[rd]-e-
+[woa]-[yoa]-[roa]-y-
+[woa]-[yoa]-[roa]-y-
+[woa]-d-[ro]-y p 
+[woa]-y-r-y-
+[eps]-[yps]-[tps]-y [ps] 
+[wps]-[oa]-[oa]-[yoa] [oa] 
+[etd]-d-s-p-
+[wro]-d-h--
+[9y]-[ra]-[wp]-[ro]-
+[9y]wr----y y 
+[9y]-[ra]-[wp]-[ro]-
+[0u]wt----
+[0u]-[ts]-[wa]-[tp]-
+[9I]Qe----
+[9d]-[ed]-[Qs]-[ep]-
+[9a]wr----
+[9y]-[ra]-[wp]-[ro]-
+[9y]wr----y y 
+[9y]-[ra]-[wp]-[ro]-
+[0u]wt----
+[0u]-[ts]-[wa]-[tp]-
+[9d]Qe-d-d-d-
+[9f]-[ed]-[Qs]-[ep]-
+[9o]wr----
+[woa]-[yoa]-[roa]-y-
+[woa]-[yoa]-[roa]-y-
+[woa]-d-[ro]-y p 
+[woa]-y-r-y-
+[eps]-[yps]-[tps]-y [ps] 
+[wps]-[oa]-[oa]-[yoa] [oa] 
+[Teoa]-p-p-a-
+[Iyp]-t-[rd]-e-
+[woa]-[yoa]-[roa]-y-
+[woa]-[yoa]-[roa]-y-
+[woa]-d-[ro]-y p 
+[woa]-y-r-y-
+[eps]-[yps]-[tps]-y [ps] 
+[wps]-[oa]-[oa]-[yoa] [oa] 
+[etd]-d-s-p-
+[wro]-d-h--
+[9y]-[ra]-[wp]-[ro]-
+[9y]wr----y y 
+[9y]-[ra]-[wp]-[ro]-
+[0u]wt----
+[0u]-[ts]-[wa]-[tp]-
+[9I]Qe----
+[9d]-[ed]-[Qs]-[ep]-
+[9a]wr----
+[9y]-[ra]-[wp]-[ro]-
+[9y]wr----y y 
+[9y]-[ra]-[wp]-[ro]-
+[0u]wt----
+[0u]-[ts]-[wa]-[tp]-
+[9d]Qe-d-d-d-
+[9f]-[ed]-[Qs]-[ep]-
+[9o]wr----
+[woa]-[yoa]-[roa]-y-
+[woa]-[yoa]-[roa]-y-
+[woa]-d-[ro]-y p 
+[woa]-y-r-y-
+[eps]-[yps]-[tps]-y [ps] 
+[wps]-[oa]-[oa]-[yoa] [oa] 
+[Teoa]-p-p-a-
+[Iyp]-t-[rd]-e-
+[woa]-[yoa]-[roa]-y-
+[woa]-[yoa]-[roa]-y-
+[woa]-d-[ro]-y p 
+[woa]-y-r-y-
+[eps]-[yps]-[tps]-y [ps] 
+[wps]-[oa]-[oa]-[yoa] [oa] 
+[etd]-d-s-p-
+[wro]-y-[wrh] ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
