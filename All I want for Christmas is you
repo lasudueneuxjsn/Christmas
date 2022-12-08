@@ -1,0 +1,83 @@
+-- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = 40 -- tempo overides the delay
+
+shared.scr = [[ h k z C [fv] 
+C z k [sh] l z v [dz]----
+op59wr-o----
+a d G h Gfd
+f-d-79wy j-h
+h G h Gfdaf d-8
+wtu-fh j k j hd
+f-(wtok zjh h hj 
+h-D 9 ryo h jG 
+h f G [7f]etID-0 ruo
+k-jkjh G f G f(wto
+D-9 ryod-fdh 
+z 0rylOzl uOfHxx-[etuok]-
+kjhfh-f-9 tYo
+D--[sj]----
+h-
+[adh][adh][adh][oadh][adh][adh][yadh][adh][adh][radh][adh][adh][uafh][afh][afh][rafh][afh][afh][wafh][afh][afh][0afh][afh][afh]
+[tsfh][sfh][sfh][wsfh][sfh][sfh][0sfh][sfh][sfh][8sfh][sfh][sfh] [29yd][29yd][29yd][29yd][29yd][29v]cxzmnbvcxzlkjhgfds
+[5o]w[5ryoa]w[5od]w[5ryaG][wah]5[waG][5ry][waf]5[wad][5ry]w
+[5aj]w[5ryah]w[5ah][waG][5ry][wah]5[wraG]6[etaf][^ad][ET]7[ry]
+[18]w[18tusf]w[18sh]w[18tusj][wsk][18][wsj][18tu][wsh][18][wsf][18tu][29w]
+[@(s]w[ts@(YD][wsh][@(]w[@(Ytsj][wsJ][@(][wsj][t@(Y][wsg][@(][wsD][t@(Y]w
+[5aj]w[5ryah][waG]5w[5ryaG][wah]5[waG][5ry][waf]5[wad][5ry]w
+[5o]w[5ryoa][wod]5[woG][5ry][wah]5[wraG]6[etaf][^ad][ET]7[ry]
+[18]w[18tufk][wfk][18fk]w[18tufj][wfk][18][wfj][18tu][wfh][18][wf][18tu][29]
+[@(s]w[ts@(YD][wsh][@(]w[@(Ytsj][wsJ][@(][wsj][t@(Y][wsg][@(][wsD][t@(Y]w
+[5ah]w[5ryaj]w[5aG]w[5ryah][waf]5[waG][5ry][wsD]7Q[7eY]Q
+[30ah]w[30ruaj]w[30aG]w[30ruah][waf][30][waG][30ru][wsD][@(]w[t@(Y]w
+[29ad]w[29ryaf]w[29ah][wdz][29ry][wfl][30][Wfz][30ryfl]W[30]W[%ry]W
+[6sk]w[6tusj]w[6sh]w[6tusf]w[29sD]w[Y29tsj]w[29]w[Y29tsk]w
+[5aj][wah][5ry]w5w[5ry]w3w[3ru]w3w[3ru]w
+[6hk]e[6tu]e6[ekz][6tuhk]e[hk][29y][29y][G29yj][29y][29yfh][29y][Gj]
+[5ak]w[5ryaj]w[5ah][waG][5ryaG][wah]5[waG][5ry][waf]5[wad][5ry]w
+[5aj]w[5ryah][waG]5w[5ryaG][wah]5[wraG]6[etaf][^ad][ET]7[ry]
+[18]w[18tufz][wfk][18fj][wfj][18tu][wfk][18][wfx][18tu][wfh][18][wfh][18tu][29]
+[@(Dk]w[@(YDtz][Dwh][@(]w[@(YDth][Dwj][@(][Dwh][t@(Y][wsD][@(]w[t@(Y]w
+[5aj]w[5ryah][waG]5w[5ryaG][wah]5[waG][5ry][waf]5[wad][5ry]w
+[5o]w[5ryoa][wod]5[woG][5ry][wah]5[wraG]6[etaf][^ad][ET]7[ry]
+[18]w[18tufz][wfk][18fk]w[18tufj][wfk][18][wfx][18tu][wfj][18][wfh][18tu][29]
+[@(s]w[ts@(YD][wsh][@(]w[@(Ytsj][wsJ][@(][wsj][t@(Y][wsg][@(][wsD][t@(Y]w
+[5ah]w[5ryaj]w[5aG]w[5ryah][waf]5[waG][5ry][wsD]7Q[7eY]Q
+[30ak]w[30ruaj][wah][30]w[30ruaG][waf][30][waG][30ru][wsD][@(]w[t@(Y]w
+[29ad]w[29ryaf]w[29ah][wdz][29ry][wfl][30][Wfz][30ryfl]W[30][Wl][%ryl][Wz]
+[6sk]w[6tusj]w[6sh]w[6tusf]w[29sD]w[Y29tsj]w[29]w[Y29tsk]w
+[5aj][wah][5ry]w5w[5ry]w3w[3ru]w3w[3ru]w
+[6hk]e[6tu]e6[ekz][6tuhk]e[hk][29y][29y][G29yj][29y][29y][29yz] 
+[D7k]7(Qer[D7k]7Q[Dek]r[YDl]77[Dek]rY[IDj]77[QDh]er[YDh]
+[3af]70[waG]r[uah]30[waj]ru[oaj]37r[uah]oa30wruo
+77(Qer[D7j]7[QDk]er[YDx]77[Dez]rY[IDj]77[QDh]erY
+[3fk]70[wfz]r[ufj]30[wfh]ru[ofk]30ruoa30wruo
+@8(wt[Yd][@sh]([wsj]tY[osj]@8[(sj]wt[Ysh]@([wsh]tYo
+279wr[yd][2dh]9[wdj]ry[ofx]37[9fz]Wr[ufj]30[Wfh]ryO
+[6sk]6[8sk][0sk]w[esk][6sk]60[wsk]e[tsk][6sk]6[wsk][esk]t[usk][6sk]6e[tsk]u[osk]
+[2fx]9w[tfz]u[ofk][2fz]9[tfk][ufz]o[sfx] [29][29dz][29k][29k]j[29h][29h]jk
+[5akn][wd][5ryajb][wd][5ahv][wdGC][5ryaGC][wdhv][5a][wdGC][5rya][wdfx][5a][wdz][5rya][wd]
+[5ajb][wd][5ryahv][wdGC][5a][wd][5ryaGC][wdhv][5o][wraGC][6p][etsfx][^P][ETSdz][7a][ryd]
+[18s][wf][18tusz][wfkn][18sjb][wfjb][18tus][wfkn][18s][wfx][18tus][wfhv][18s][wfhv][18tus][29f]
+[@(skn][wD][@(Ytsz][Dwhv][@(s][wD][@(Ytshv][Dwjb][@(o][Dwhv][@(Yto][wDZ][@(o][wD][@(Yto][wD]
+[5ahv][wd][5ryajb][wd][5aGC][wd][5ryahv][wdfx][5a][wdGC][5rya][wdDZ][7I][Qa][7eYI][Qa]
+[30akn][wf][30ruakb][wfhv][30a][wf][30ruaGC][wfx][30a][wfGC][30rua][wfDZ][@(o][ws][@(Yto][ws]
+[29a][wdx][29rya][kn][wd][29akn][wdz][29rya][wdz][30a][Wf][30ryaxm][Wf][30a][Wf][%ryalm][Wfz]
+[6skn][wf][6tusjb][wf][6shv][wf][6tusfx][wf][29psDZ]w[YD29tsjb]w[29]w[29tY]w
+2--61@568(w68(wetYope
+tYopsDhjb--[ah]oYt
+[5oah]9[Irp]9[ruo] [Ip] [0oa]w[ruo]-[Ip] 
+[8oa]wr-[ad][oa] [9oa]wyw[Itp]-
+[5oa]9[Irp]9[ruo] [Ip] [0oa]w[ruo]-[Ip] 
+[8oa]wr-[ad][oa] [9oa]wyw[Itp]-
+[whk]y[Gaj]y[afh] [Gj] [uhk]o[afh]-[Gj] 
+[thk]oa-[kz][hk] [yhk]odo[Gsj]-
+[whk]y[Gaj]y[afh] [YGj]a[uhk]o[afh]-[Gj] 
+[thk]oa-[kz][hk] [yhk]osD[Gj]-
+hdaoywrw975 ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
